@@ -2,7 +2,7 @@
 
 ### Description
 
-![FireRisk overview image]()
+![FireRisk overview image](https://github.com/CharmonyShen/FireRisk/blob/main/images/FireRisk_overview.png?raw=true)
 
 ### Download
 
@@ -12,7 +12,7 @@ FireRisk: A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Usin
 
 ##### Dataset
 
-[FireRisk]()
+[FireRisk](https://drive.google.com/file/d/1J5GrJJPLWkpuptfY_kgqkiDtcSNP88OP/view?usp=share_link)
 
 ##### Pre-trained Checkpoints
 
