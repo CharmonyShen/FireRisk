@@ -58,6 +58,9 @@ FireRisk: A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Usin
 
 ##### Pre-trained Checkpoints
 
+using ViT-B/16 as the backbone architecture of MAE and DINO pre-trained MAE for 80 epoches on our UnlabelledNAIP
+pre-trained DINO for 100 epoches on our UnlabelledNAIP
+
 <table><tbody>
 <!-- START TABLE -->
 <!-- TABLE HEADER -->
