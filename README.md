@@ -56,10 +56,24 @@ FireRisk: A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Usin
 
 [FireRisk](https://drive.google.com/file/d/1J5GrJJPLWkpuptfY_kgqkiDtcSNP88OP/view?usp=share_link)
 
+Image naming in our FireRisk:
+$(pointid)\_(grid\_code)\_(x\_coord)\_(y\_coord).png$
+
+| Name       | Data Type            | Meaning                                                                                                                                                     |
+|------------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| FID        | integer              | ID of the data point in the file                                                                                                                            |
+| pointid    | integer              | unique ID of the data point in the WHP dataset                                                                                                              |
+| grid_code  | integer(from 1 to 7) | code for fire risk level                                                                                                                                    |
+| class_desc | string(seven values) | description of the fire risk level, corresponding to the grid_code, which are 1:Very Low, 2:Low, 3:Moderate, 4:High, 5:Very High, 6:Non-burable and 7:water |
+| x_coord    | number               | longitude coordinates of the grid centroid                                                                                                                  |
+| y_coord    | number               | latitude coordinates of the grid centroid                                                                                                                   |
+
+
 ##### Pre-trained Checkpoints
 
-using ViT-B/16 as the backbone architecture of MAE and DINO pre-trained MAE for 80 epoches on our UnlabelledNAIP
-pre-trained DINO for 100 epoches on our UnlabelledNAIP
+using ViT-B/16 as the backbone architecture of MAE and DINO 
+pre-training MAE for 80 epoches on our UnlabelledNAIP
+pre-training DINO for 100 epoches on our UnlabelledNAIP
 
 <table><tbody>
 <!-- START TABLE -->
