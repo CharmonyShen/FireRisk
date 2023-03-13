@@ -19,6 +19,10 @@ In this work, we propose a novel remote sensing dataset, FireRisk, consisting of
 
 ### Experiments
 
+* The supervised benchmarks, we use ResNet-50 and ViT-B/16.
+* The self-supervised benchmarks, we use DINO and MAE, with ViT-B/16 as backbone.
+* Using 2 GPUs and batch size per GPU of 16 for training, and taking the results of the highest accuracy out of 100 epoches.
+
 |Dataset|Model|pre-trained|Accuracy|F1-score|Precision|Recall|
 |:----|:----|:----|:----|:----|:----|:----|
 |FireRisk |ResNet-50 |ImageNet1k |63.20|52.56|52.75|53.41|
@@ -43,8 +47,11 @@ In this work, we propose a novel remote sensing dataset, FireRisk, consisting of
 *From the table we can draw the following conclusions:*
 
 1. The maximum accuracy for the supervised benchmarks can reach 63.31%, while for the self-supervised benchmarks, the MAE pre-trained on ImageNet1k can achieve the optimal accuracy of all models at 65.29%.
-2. our self-supervised learning benchmarks outperform supervised learning on FireRisk, although their improvement on less training data is limited.
-3. Our new pre-trained latent representations are also complementary to the self-supervised representations, where there is a considerable increase in DINO, which can reach 63.44% compared to 63.36% for the DINO pre-trained on ImageNet.
+And the checkpoint of the optimal model is
+[MAE pre-trained on ImageNet1k](https://drive.google.com/file/d/1JEmEcGD-qTRXs_pGpR4FdiXGshpAsSo9/view?usp=sharing)
+
+2. Our self-supervised learning benchmarks outperform supervised learning on FireRisk, although their improvement on less training data is limited.
+3. Our new pre-trained latent representations have a considerable increase in DINO, which can reach 63.44% compared to 63.36% for the DINO pre-trained on ImageNet.
 
 ### Download
 
@@ -71,9 +78,9 @@ $(pointid)\_(grid\_code)\_(x\_coord)\_(y\_coord).png$
 
 ##### Pre-trained Checkpoints
 
-using ViT-B/16 as the backbone architecture of MAE and DINO 
-pre-training MAE for 80 epoches on our UnlabelledNAIP
-pre-training DINO for 100 epoches on our UnlabelledNAIP
+* Using ViT-B/16 as the backbone architecture of MAE and DINO 
+* Pre-training MAE for 80 epoches on our UnlabelledNAIP
+* Pre-training DINO for 100 epoches on our UnlabelledNAIP
 
 <table><tbody>
 <!-- START TABLE -->
