@@ -97,7 +97,7 @@ $(pointid)\_(grid\_code)\_(x\_coord)\_(y\_coord).png$
 
 ### References
 
-If you have used our FireRisk dataset, please cite the following papers: 
+If you have used our FireRisk dataset, please cite the following papers: https://arxiv.org/abs/2303.07035 
 
 <!-- ### Acknowledgements
 
