@@ -95,10 +95,11 @@ $(pointid)\_(grid\_code)\_(x\_coord)\_(y\_coord).png$
 </tr>
 </tbody></table>
 
-### References
+### Citation
 
 If you have used our FireRisk dataset, please cite the following papers: https://arxiv.org/abs/2303.07035
 
+```
 @misc{shen2023firerisk,
       title={FireRisk: A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning}, 
       author={Shuchang Shen and Sachith Seneviratne and Xinye Wanyan and Michael Kirley},
@@ -107,7 +108,7 @@ If you have used our FireRisk dataset, please cite the following papers: https:/
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-
+```
 <!-- ### Acknowledgements
 
 This research was undertaken using the LIEF HPC-GPGPU Facility hosted at the University of Melbourne. This Facility was established with the assistance of LIEF Grant LE170100200. -->
