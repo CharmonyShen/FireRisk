@@ -97,8 +97,7 @@ $(pointid)\_(grid\_code)\_(x\_coord)\_(y\_coord).png$
 
 ### Citation
 
-The dataset will be released...
-<!-- If you have used our FireRisk dataset, please cite the following papers: https://arxiv.org/abs/2303.07035
+If you have used our FireRisk dataset, please cite the following papers: https://arxiv.org/abs/2303.07035
 
 ```
 @misc{shen2023firerisk,
@@ -112,4 +111,4 @@ The dataset will be released...
 ``` -->
 <!-- ### Acknowledgements
 
-This research was undertaken using the LIEF HPC-GPGPU Facility hosted at the University of Melbourne. This Facility was established with the assistance of LIEF Grant LE170100200. -->
+This research was undertaken using the LIEF HPC-GPGPU Facility hosted at the University of Melbourne. This Facility was established with the assistance of LIEF Grant LE170100200.
