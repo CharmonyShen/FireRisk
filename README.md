@@ -108,7 +108,7 @@ If you have used our FireRisk dataset, please cite the following papers: https:/
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-``` -->
-<!-- ### Acknowledgements
+```
+### Acknowledgements
 
 This research was undertaken using the LIEF HPC-GPGPU Facility hosted at the University of Melbourne. This Facility was established with the assistance of LIEF Grant LE170100200.
